@@ -34,34 +34,3 @@ else if (userPickIsHead && !actualFlipIsHead) {
 else if (!userPickIsHead && !actualFlipIsHead) {
     window.alert("The flip was tails and you chose tails...you win!");
 }
-
-
-
-/*
-var coinFlip = parseInt(Math.random() * 100, 10);
-var userPick;
-var actualFlip;
-
-userPick = window.prompt("Please enter either Heads (H) or Tails (T): ");
-
-if (coinFlip < 50) {
-    actualFlip = "H";
-}
-else {
-    actualFlip = "T";
-}
-
-if (userPick === "H" && actualFlip === "H") {
-    window.alert("The flip was heads and you chose heads...you win!");
-}
-else if (userPck === "T" && actualFlip === "H") {
-    window.alert("The flip was heads but you chose tails...you lose!");
-}
-else if (userPick === "H" && actualFlip === "T") {
-    window.alert("The flip was tails but you chose heads...you lose!");
-}
-else if (userPick === "T" && actualFlip === "T") {
-    window.alert("The flip was tails and you chose tails...you win!");
-}
-*/
- 
